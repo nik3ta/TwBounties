@@ -1,0 +1,13 @@
+name: TwBounties
+version: ${project.version}
+main: ru.twbounties.TwBounties
+api-version: 1.16
+authors:
+  - Tex. Admin servera
+depend: [Vault]
+softdepend: [CMI]
+commands:
+  bounty:
+    description: Основная команда для управления наградами
+    usage: /bounty <ник> <сумма> или /bounty gui
+    aliases: [bounties]
